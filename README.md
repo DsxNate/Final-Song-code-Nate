@@ -1,5 +1,3 @@
-# Final-Song-code-Nate
-
 # Welcome to Sonic Pi
 
 #nate and todds song
@@ -7,6 +5,8 @@
 use_synth :piano
 use_bpm 151
 #start highest in the room
+
+taco = "C:/Users/naythan_ignacio/Documents/Audacity/Taco Tuesday With LeBron James.wav"
 
 boom = "c:/users/naythan_ignacio/documents/audacity/[4k edit] bo bo bo boom lebron lebronjames edit nba.wav"
 
@@ -168,6 +168,8 @@ define :bottom do
 end
 
 #start
+
+sample taco
 
 #sample that plays before the loop should be here 
 live_loop:begin do
